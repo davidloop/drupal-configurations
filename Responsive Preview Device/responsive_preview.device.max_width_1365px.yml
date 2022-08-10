@@ -1,0 +1,12 @@
+uuid: 4f73d45e-05c8-41d8-a218-74b83986d564
+langcode: en
+status: 1
+dependencies: {  }
+id: max_width_1365px
+label: 'Max Width 1365px'
+weight: -9
+orientation: portrait
+dimensions:
+  width: 1365
+  height: 780
+  dppx: !!float 1

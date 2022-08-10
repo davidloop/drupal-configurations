@@ -1,0 +1,12 @@
+uuid: de44d619-0df0-4614-b3f7-c25efc5dd4cc
+langcode: en
+status: 1
+dependencies: {  }
+id: max_width_479px
+label: 'Max Width 479px'
+weight: -4
+orientation: portrait
+dimensions:
+  width: 479
+  height: 780
+  dppx: !!float 1
