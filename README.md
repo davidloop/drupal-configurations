@@ -2,6 +2,5 @@
 
 ### Contents:
 
-- Responsive Preview Device
-
-The Responsive Preview module provides content and theme administrators with a quick way to preview how their site's pages will appear from desktop to mobile device widths.
+- [Image Styles](https://github.com/davidloop/drupal-configurations/tree/main/Image%20Styles)
+- [Responsive Preview Device](https://github.com/davidloop/drupal-configurations/tree/main/Responsive%20Preview%20Device)
