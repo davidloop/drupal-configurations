@@ -1,0 +1,20 @@
+-
+  type: cohesion_custom_style
+  export:
+    uuid: 4a1e9a72-68af-4f39-9634-00da19145fa1
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: 'Padding bottom medium'
+    id: b39e15bd
+    json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>\n","textFormat":"cohesion"},"styles":{"settings":{"element":"div","class":"","combinator":"","pseudo":""},"styles":{"xl":{"padding":{"padding-bottom":{"value":"60"}}},"sm":{"padding":{"padding-bottom":{"value":"30"}}},"xs":{"padding":{"padding-bottom":{"value":"15"}}}}},"sBackgroundColour":"#FFFFFF","variableFields":[]}'
+    json_mapper: '{"styles":{"title":"Layout","selectorType":"topLevel","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"},{"name":"sm"},{"name":"xs"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":false},{"name":"padding-bottom","active":true},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"items":[],"form":null}}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    class_name: .coh-style-padding-bottom-medium
+    custom_style_type: layout
+    available_in_wysiwyg: false
+    parent: null
+    weight: 29
