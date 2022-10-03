@@ -11,3 +11,5 @@ The [Responsive Theme Preview](https://www.drupal.org/project/responsive_preview
 - Click **Import** and follow the instructions for syncing.
 - To check if a configuration was properly imported navigate to **Configuration** in the Drupal administrator toolbar.
 - Go to **User interface > Responsive preview**, the imported configuration should be listed.
+
+![Screenshot](screenshot.jpg)
