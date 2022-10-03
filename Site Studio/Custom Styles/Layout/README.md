@@ -1,4 +1,4 @@
-# Custom Styles / Layout / Margin & Padding
+# Custom Styles : Layout : Margin & Padding
 
 ### Usage:
 
