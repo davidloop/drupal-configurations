@@ -1,0 +1,227 @@
+-
+  type: cohesion_helper
+  export:
+    uuid: 1dee3da5-9672-46cf-937a-87834b240d53
+    langcode: en
+    status: true
+    dependencies:
+      config:
+        - cohesion_custom_styles.cohesion_custom_style.1030e68f
+        - cohesion_custom_styles.cohesion_custom_style.2e6d94eb
+        - cohesion_custom_styles.cohesion_custom_style.7ef725fd
+        - cohesion_custom_styles.cohesion_custom_style.a56b4c76
+        - cohesion_custom_styles.cohesion_custom_style.a59e0629
+        - cohesion_custom_styles.cohesion_custom_style.b39e15bd
+        - cohesion_custom_styles.cohesion_custom_style.e5a59a9d
+        - cohesion_custom_styles.cohesion_custom_style.ee93d997
+        - cohesion_custom_styles.cohesion_custom_style.fd99703e
+        - cohesion_elements.cohesion_helper_category.hlp_cat_styling
+    label: 'Padding - top and bottom'
+    id: hlp_padding__top_and_bottom
+    json_values: '{"canvas":[{"type":"form-field","uid":"form-select","title":"Select","translate":false,"status":{"collapsed":false},"uuid":"d25455aa-89ee-4fad-8809-dc8b04e66e83","parentUid":"root","children":[]}],"mapper":{},"model":{"d25455aa-89ee-4fad-8809-dc8b04e66e83":{"settings":{"title":"Padding - top and bottom","type":"cohSelect","selectType":"custom","schema":{"type":"string"},"options":[{"label":"Top - Large","value":"coh-style-padding-top-large"},{"label":"Top - Medium","value":"coh-style-padding-top-medium"},{"label":"Top - Small","value":"coh-style-padding-top-small"},{"label":"Bottom - Large","value":"coh-style-padding-bottom-large"},{"label":"Bottom - Medium","value":"coh-style-padding-bottom-medium"},{"label":"Bottom - Small","value":"coh-style-padding-bottom-small"},{"label":"Top and bottom - Large","value":"coh-style-padding-top-bottom-large"},{"label":"Top and bottom - Medium","value":"coh-style-padding-top-bottom-medium"},{"label":"Top and bottom - Small","value":"coh-style-padding-top-bottom-small"},{"label":"None","value":""}],"machineName":"padding-top-and-bottom","tooltipPlacement":"auto right"},"contextVisibility":{"condition":"ALL"},"model":{"value":"coh-style-padding-top-bottom-medium"}}},"previewModel":{"d25455aa-89ee-4fad-8809-dc8b04e66e83":{}},"variableFields":{"d25455aa-89ee-4fad-8809-dc8b04e66e83":[]},"meta":{"fieldHistory":[{"uuid":"d25455aa-89ee-4fad-8809-dc8b04e66e83","type":"form-select","machineName":"padding-top-and-bottom"}]}}'
+    json_mapper: '{}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    category: hlp_cat_styling
+    preview_image: ''
+    entity_type_access: {  }
+    bundle_access: {  }
+    weight: 1
+-
+  type: cohesion_custom_style
+  export:
+    uuid: db96dafd-7cf4-457b-9dc8-d63b9ace7ddb
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: 'Padding top medium'
+    id: 1030e68f
+    json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>\n","textFormat":"cohesion"},"styles":{"settings":{"element":"div","class":"","combinator":"","pseudo":""},"styles":{"xl":{"padding":{"padding-top":{"value":"60"}}},"sm":{"padding":{"padding-top":{"value":"30"}}},"xs":{"padding":{"padding-top":{"value":"15"}}}}},"sBackgroundColour":"#FFFFFF","variableFields":[]}'
+    json_mapper: '{"styles":{"title":"Layout","selectorType":"topLevel","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"},{"name":"sm"},{"name":"xs"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":true},{"name":"padding-bottom","active":false},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"items":[],"form":null}}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    class_name: .coh-style-padding-top-medium
+    custom_style_type: layout
+    available_in_wysiwyg: false
+    parent: null
+    weight: 26
+-
+  type: cohesion_custom_style
+  export:
+    uuid: f9b9bcd0-1cd6-4fc0-be6c-5d7c495ce2f7
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: 'Padding top bottom medium'
+    id: 2e6d94eb
+    json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>\n","textFormat":"cohesion"},"styles":{"settings":{"element":"div","class":"","combinator":"","pseudo":""},"styles":{"xl":{"padding":{"padding-top":{"value":"60"},"padding-bottom":{"value":"60"}}},"sm":{"padding":{"padding-top":{"value":"30"},"padding-bottom":{"value":"30"}}},"xs":{"padding":{"padding-top":{"value":"15"},"padding-bottom":{"value":"15"}}}}},"sBackgroundColour":"#FFFFFF","variableFields":[]}'
+    json_mapper: '{"styles":{"title":"Layout","selectorType":"topLevel","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"},{"name":"sm"},{"name":"xs"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":true},{"name":"padding-bottom","active":true},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"items":[],"form":null}}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    class_name: .coh-style-padding-top-bottom-medium
+    custom_style_type: layout
+    available_in_wysiwyg: false
+    parent: null
+    weight: 32
+-
+  type: cohesion_custom_style
+  export:
+    uuid: bdd9ca3f-ccf1-46a4-a447-482c24b29adb
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: 'Padding bottom large'
+    id: 7ef725fd
+    json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>\n","textFormat":"cohesion"},"styles":{"settings":{"element":"div","class":"","combinator":"","pseudo":""},"styles":{"xl":{"padding":{"padding-bottom":{"value":"90"}}},"lg":{"padding":{"padding-bottom":{}}},"sm":{"padding":{"padding-bottom":{"value":"30"}}},"xs":{"padding":{"padding-bottom":{"value":"15"}}}}},"sBackgroundColour":"#FFFFFF","variableFields":[]}'
+    json_mapper: '{"styles":{"selectorType":"topLevel","items":[],"title":"Layout","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"},{"name":"sm"},{"name":"xs"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":false},{"name":"padding-bottom","active":true},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"form":null}}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    class_name: .coh-style-padding-bottom-large
+    custom_style_type: layout
+    available_in_wysiwyg: false
+    parent: null
+    weight: 28
+-
+  type: cohesion_custom_style
+  export:
+    uuid: e6f7b148-e09e-4a97-84d1-92f9f0ced591
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: 'Padding top bottom small'
+    id: a56b4c76
+    json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>\n","textFormat":"cohesion"},"styles":{"settings":{"element":"div","class":"","combinator":"","pseudo":""},"styles":{"xl":{"padding":{"padding-top":{"value":"30"},"padding-bottom":{"value":"30"}}},"xs":{"padding":{"padding-top":{"value":"15"},"padding-bottom":{"value":"15"}}}}},"sBackgroundColour":"#FFFFFF","variableFields":[]}'
+    json_mapper: '{"styles":{"selectorType":"topLevel","items":[],"title":"Layout","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"},{"name":"xs"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":true},{"name":"padding-bottom","active":true},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"form":null}}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    class_name: .coh-style-padding-top-bottom-small
+    custom_style_type: layout
+    available_in_wysiwyg: false
+    parent: null
+    weight: 33
+-
+  type: cohesion_custom_style
+  export:
+    uuid: 1d263d61-b0ee-4963-b0a5-90baa560b00d
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: 'Padding top large'
+    id: a59e0629
+    json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>\n","textFormat":"cohesion"},"styles":{"settings":{"element":"div","class":"","combinator":"","pseudo":""},"styles":{"xl":{"padding":{"padding-top":{"value":"90"}}},"lg":{"padding":{"padding-top":{}}},"sm":{"padding":{"padding-top":{"value":"30"}}},"xs":{"padding":{"padding-top":{"value":"15"}}}}},"sBackgroundColour":"#FFFFFF","variableFields":[]}'
+    json_mapper: '{"styles":{"selectorType":"topLevel","items":[],"title":"Layout","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"},{"name":"sm"},{"name":"xs"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":true},{"name":"padding-bottom","active":false},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"form":null}}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    class_name: .coh-style-padding-top-large
+    custom_style_type: layout
+    available_in_wysiwyg: false
+    parent: null
+    weight: 25
+-
+  type: cohesion_custom_style
+  export:
+    uuid: 4a1e9a72-68af-4f39-9634-00da19145fa1
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: 'Padding bottom medium'
+    id: b39e15bd
+    json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>\n","textFormat":"cohesion"},"styles":{"settings":{"element":"div","class":"","combinator":"","pseudo":""},"styles":{"xl":{"padding":{"padding-bottom":{"value":"60"}}},"sm":{"padding":{"padding-bottom":{"value":"30"}}},"xs":{"padding":{"padding-bottom":{"value":"15"}}}}},"sBackgroundColour":"#FFFFFF","variableFields":[]}'
+    json_mapper: '{"styles":{"title":"Layout","selectorType":"topLevel","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"},{"name":"sm"},{"name":"xs"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":false},{"name":"padding-bottom","active":true},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"items":[],"form":null}}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    class_name: .coh-style-padding-bottom-medium
+    custom_style_type: layout
+    available_in_wysiwyg: false
+    parent: null
+    weight: 29
+-
+  type: cohesion_custom_style
+  export:
+    uuid: 0ad62437-2536-466b-83d1-c4cd0e609566
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: 'Padding top small'
+    id: e5a59a9d
+    json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>\n","textFormat":"cohesion"},"sBackgroundColour":"#FFFFFF","styles":{"settings":{"element":"div","class":"","combinator":"","pseudo":""},"styles":{"xl":{"padding":{"padding-top":{"value":"30"}}},"lg":{"padding":{"padding-top":{}}},"xs":{"padding":{"padding-top":{"value":"15"}}}}},"variableFields":[]}'
+    json_mapper: '{"styles":{"selectorType":"topLevel","items":[],"title":"Layout","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"},{"name":"xs"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":true},{"name":"padding-bottom","active":false},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"form":null}}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    class_name: .coh-style-padding-top-small
+    custom_style_type: layout
+    available_in_wysiwyg: false
+    parent: null
+    weight: 27
+-
+  type: cohesion_custom_style
+  export:
+    uuid: 4d43a46f-9ced-4aa6-b079-8ea4347f9c01
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: 'Padding bottom small'
+    id: ee93d997
+    json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>\n","textFormat":"cohesion"},"sBackgroundColour":"#FFFFFF","styles":{"settings":{"element":"div","class":"","combinator":"","pseudo":""},"styles":{"xl":{"padding":{"padding-bottom":{"value":"30"}}},"xs":{"padding":{"padding-bottom":{"value":"15"}}}}},"variableFields":[]}'
+    json_mapper: '{"styles":{"selectorType":"topLevel","items":[],"title":"Layout","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"},{"name":"xs"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":false},{"name":"padding-bottom","active":true},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"form":null}}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    class_name: .coh-style-padding-bottom-small
+    custom_style_type: layout
+    available_in_wysiwyg: false
+    parent: null
+    weight: 30
+-
+  type: cohesion_custom_style
+  export:
+    uuid: f7e6a81c-466a-48cc-8694-d04a8dd1ebfe
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: 'Padding top bottom large'
+    id: fd99703e
+    json_values: '{"preview":{"text":"<div class=\"coh-preview\">Default content for ''Layout''.<\/div>\n","textFormat":"cohesion"},"styles":{"settings":{"element":"div","class":"","combinator":"","pseudo":""},"styles":{"xl":{"padding":{"padding-top":{"value":"90"},"padding-bottom":{"value":"90"}}},"lg":{"padding":{"padding-top":{},"padding-bottom":{}}},"sm":{"padding":{"padding-top":{"value":"30"},"padding-bottom":{"value":"30"}}},"xs":{"padding":{"padding-top":{"value":"15"},"padding-bottom":{"value":"15"}}}}},"sBackgroundColour":"#FFFFFF","variableFields":[]}'
+    json_mapper: '{"styles":{"selectorType":"topLevel","items":[],"title":"Layout","formDefinition":[{"formKey":"layout","children":[{"formKey":"padding","breakpoints":[{"name":"xl"},{"name":"sm"},{"name":"xs"}],"activeFields":[{"name":"padding-equal","active":false},{"name":"padding-top","active":true},{"name":"padding-bottom","active":true},{"name":"padding-left","active":false},{"name":"padding-right","active":false},{"name":"padding-block-start","active":false},{"name":"padding-block-end","active":false},{"name":"padding-inline-start","active":false},{"name":"padding-inline-end","active":false}]}]}],"form":null}}'
+    last_entity_update: entityupdate_0036
+    locked: false
+    modified: true
+    selectable: true
+    class_name: .coh-style-padding-top-bottom-large
+    custom_style_type: layout
+    available_in_wysiwyg: false
+    parent: null
+    weight: 31
+-
+  type: cohesion_helper_category
+  export:
+    uuid: c7a37e8c-ac22-4053-916c-cb2e15bed707
+    langcode: en
+    status: true
+    dependencies: {  }
+    label: Styling
+    id: hlp_cat_styling
+    json_values: '{}'
+    json_mapper: '{}'
+    last_entity_update: entityupdate_0035
+    modified: false
+    selectable: true
+    class: category-9
+    weight: -10
