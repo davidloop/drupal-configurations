@@ -1,5 +1,11 @@
 # Custom Styles&nbsp;&nbsp;/&nbsp;&nbsp;Layout&nbsp;&nbsp;/&nbsp;&nbsp;Margin & Padding
 
+<p>&nbsp;</p>
+
+[Acquia Site Studio](https://www.acquia.com/products/drupal-cloud/site-studio) must be installed for these configurations to operate.
+
+<p>&nbsp;</p>
+
 ### Usage:
 
 - To import a configuration, navigate to **Configuration** in the Drupal administrator toolbar.
