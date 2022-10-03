@@ -13,8 +13,8 @@
 - Under the **Configuration type** dropdown, select **Custom style**.
 - Copy and paste the code content of an individual YML file into the **Paste your configuration here** field.
 - Click **Import** and follow the instructions for syncing.
-- To check if a configuration was properly imported navigate to **Configuration** in the Drupal administrator toolbar.
-- Go to **Site Studio > Styles > Custom styles**, the imported configuration should be listed under **Layout**.
+- To check if a configuration was properly imported navigate to **Site Studio** in the Drupal administrator toolbar.
+- Go to **Styles > Custom styles**, the imported configuration should be listed under **Layout**.
 
 ![Screenshot](screenshot1.jpg)
 
