@@ -1,0 +1,18 @@
+uuid: 0c494822-c6de-4442-82ab-cdeafdc77268
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: 24_9_small_640x240
+label: '24:9 Small - 640x240'
+effects:
+  9e4ffd4f-db97-4ed8-8e94-2876475bde57:
+    uuid: 9e4ffd4f-db97-4ed8-8e94-2876475bde57
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 640
+      height: 240
+      crop_type: focal_point
+pipeline: __default__

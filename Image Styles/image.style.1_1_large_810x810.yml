@@ -1,0 +1,18 @@
+uuid: fd35da13-567c-4876-b28d-f903deb5e173
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: 1_1_large_810x810
+label: '1:1 Large - 810x810'
+effects:
+  4c651598-3816-4416-ae50-e594e769548b:
+    uuid: 4c651598-3816-4416-ae50-e594e769548b
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 810
+      height: 810
+      crop_type: focal_point
+pipeline: __default__

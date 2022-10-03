@@ -1,0 +1,18 @@
+uuid: d3294141-315a-4c71-bc2f-ab3b80258846
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: 1_1_medium_540x540
+label: '1:1 Medium - 540x540'
+effects:
+  02ed1850-fca5-4e0d-ada8-b4798bd4227f:
+    uuid: 02ed1850-fca5-4e0d-ada8-b4798bd4227f
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 540
+      height: 540
+      crop_type: focal_point
+pipeline: __default__

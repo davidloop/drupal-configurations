@@ -1,0 +1,16 @@
+uuid: db8af597-54fd-4f19-8e3a-1bd0142accb5
+langcode: en
+status: true
+dependencies: {  }
+name: width_only_960
+label: 'Width Only - 960'
+effects:
+  3ff38040-6bf1-47a2-b1cc-57767d1e8037:
+    uuid: 3ff38040-6bf1-47a2-b1cc-57767d1e8037
+    id: image_scale
+    weight: 1
+    data:
+      width: 960
+      height: null
+      upscale: false
+pipeline: __default__

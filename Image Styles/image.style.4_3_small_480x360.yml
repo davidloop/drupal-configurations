@@ -1,0 +1,18 @@
+uuid: 612cee4b-0a58-40a1-b3e2-23fd103be586
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: 4_3_small_480x360
+label: '4:3 Small - 480x360'
+effects:
+  6092be09-6f26-4c20-bdea-849fb01c8972:
+    uuid: 6092be09-6f26-4c20-bdea-849fb01c8972
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 360
+      crop_type: focal_point
+pipeline: __default__
