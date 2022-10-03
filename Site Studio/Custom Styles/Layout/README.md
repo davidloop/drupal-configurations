@@ -1,4 +1,4 @@
-# Custom Styles - Layout - Margin & Padding
+# Custom Styles / Layout / Margin & Padding
 
 ### Usage:
 
@@ -11,5 +11,7 @@
 - Go to **Media > Image styles**, the imported configuration should be listed.
 
 ![Screenshot](screenshot1.jpg)
+
 ![Screenshot](screenshot2.jpg)
+
 ![Screenshot](screenshot3.jpg)
