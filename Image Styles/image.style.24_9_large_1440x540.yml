@@ -1,18 +1,16 @@
 uuid: 4b10109e-7c03-4bfc-b9eb-32bd1a258a99
 langcode: en
 status: true
-dependencies:
-  module:
-    - focal_point
+dependencies: {  }
 name: 24_9_large_1440x540
 label: '24:9 Large - 1440x540'
 effects:
-  f820802a-e548-4205-889b-5156a0d55023:
-    uuid: f820802a-e548-4205-889b-5156a0d55023
-    id: focal_point_scale_and_crop
+  5a32bd35-18cd-4667-acd2-81ccce5eb96c:
+    uuid: 5a32bd35-18cd-4667-acd2-81ccce5eb96c
+    id: image_scale_and_crop
     weight: 1
     data:
       width: 1440
       height: 540
-      crop_type: focal_point
-pipeline: __default__
+      anchor: center-center
+pipeline: ''

@@ -1,18 +1,16 @@
 uuid: 98db3763-e37f-46ef-a3da-d85c471bf3dc
 langcode: en
 status: true
-dependencies:
-  module:
-    - focal_point
+dependencies: {  }
 name: 24_9_medium_960x360
 label: '24:9 Medium - 960x360'
 effects:
-  fef01aee-5c04-451f-8a85-c37da4bf3995:
-    uuid: fef01aee-5c04-451f-8a85-c37da4bf3995
-    id: focal_point_scale_and_crop
+  be863130-ea36-4875-aaad-0b0760062efa:
+    uuid: be863130-ea36-4875-aaad-0b0760062efa
+    id: image_scale_and_crop
     weight: 1
     data:
       width: 960
       height: 360
-      crop_type: focal_point
-pipeline: __default__
+      anchor: center-center
+pipeline: ''

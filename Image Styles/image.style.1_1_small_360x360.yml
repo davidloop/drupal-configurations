@@ -1,18 +1,16 @@
 uuid: 60807843-42a2-406c-968b-fd4a54361f99
 langcode: en
 status: true
-dependencies:
-  module:
-    - focal_point
+dependencies: {  }
 name: 1_1_small_360x360
 label: '1:1 Small - 360x360'
 effects:
-  71985c48-dca5-432e-bac1-bb2210ea7c15:
-    uuid: 71985c48-dca5-432e-bac1-bb2210ea7c15
-    id: focal_point_scale_and_crop
+  725ef446-ecb3-4220-b01c-73e38b5108fb:
+    uuid: 725ef446-ecb3-4220-b01c-73e38b5108fb
+    id: image_scale_and_crop
     weight: 1
     data:
       width: 360
       height: 360
-      crop_type: focal_point
-pipeline: __default__
+      anchor: center-center
+pipeline: ''

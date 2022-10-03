@@ -1,18 +1,16 @@
 uuid: 35f6dc12-636f-4525-b7f6-92d6cb8a09b2
 langcode: en
 status: true
-dependencies:
-  module:
-    - focal_point
+dependencies: {  }
 name: 4_3_large_960x720
 label: '4:3 Large - 960x720'
 effects:
-  473b0e9a-34b3-45e1-ba1e-23d8bd8812e3:
-    uuid: 473b0e9a-34b3-45e1-ba1e-23d8bd8812e3
-    id: focal_point_scale_and_crop
+  2b7c85e3-95ab-4ddf-a961-fd5d49e37ea8:
+    uuid: 2b7c85e3-95ab-4ddf-a961-fd5d49e37ea8
+    id: image_scale_and_crop
     weight: 1
     data:
       width: 960
       height: 720
-      crop_type: focal_point
-pipeline: __default__
+      anchor: center-center
+pipeline: ''

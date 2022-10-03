@@ -1,18 +1,16 @@
 uuid: df6983fc-c277-44f1-ba5a-613db929bdb8
 langcode: en
 status: true
-dependencies:
-  module:
-    - focal_point
+dependencies: {  }
 name: 24_9_extra_large_1920x720
 label: '24:9 Extra Large - 1920x720'
 effects:
-  3c6b8921-81eb-4f74-b710-d18a46e54dbd:
-    uuid: 3c6b8921-81eb-4f74-b710-d18a46e54dbd
-    id: focal_point_scale_and_crop
+  f4ea5921-b39f-4217-8467-2cea319e6913:
+    uuid: f4ea5921-b39f-4217-8467-2cea319e6913
+    id: image_scale_and_crop
     weight: 1
     data:
       width: 1920
       height: 720
-      crop_type: focal_point
-pipeline: __default__
+      anchor: center-center
+pipeline: ''

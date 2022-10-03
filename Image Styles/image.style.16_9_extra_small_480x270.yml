@@ -1,18 +1,16 @@
 uuid: 23e75a5b-ddcc-4ffd-a1c7-bf3a678efb4a
 langcode: en
 status: true
-dependencies:
-  module:
-    - focal_point
+dependencies: {  }
 name: 16_9_extra_small_480x270
 label: '16:9 Extra Small - 480x270'
 effects:
-  24efe1bc-1254-4974-9192-35f233d6b2e9:
-    uuid: 24efe1bc-1254-4974-9192-35f233d6b2e9
-    id: focal_point_scale_and_crop
+  ceb1e2c2-bbb4-499c-85cf-2d9b61f80793:
+    uuid: ceb1e2c2-bbb4-499c-85cf-2d9b61f80793
+    id: image_scale_and_crop
     weight: 1
     data:
       width: 480
       height: 270
-      crop_type: focal_point
-pipeline: __default__
+      anchor: center-center
+pipeline: ''
