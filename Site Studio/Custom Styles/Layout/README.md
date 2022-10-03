@@ -16,8 +16,32 @@
 - To check if a configuration was properly imported navigate to **Site Studio** in the Drupal administrator toolbar.
 - Go to **Styles > Custom styles**, the imported configuration should be listed under **Layout**.
 
+<p>&nbsp;</p>
+
+### Style values:
+
+- Large
+  - Desktop: 90px
+  - Tablet: 30px
+  - Phone: 15px
+- Medium
+  - Desktop: 60px
+  - Tablet: 30px
+  - Phone: 15px
+- Small
+  - Desktop: 30px
+  - Phone: 15px
+
+<p>&nbsp;</p>
+
+### Layout canvas:
+
 ![Screenshot](screenshot1.jpg)
 
+<p>&nbsp;</p>
+
 ![Screenshot](screenshot2.jpg)
+
+<p>&nbsp;</p>
 
 ![Screenshot](screenshot3.jpg)
