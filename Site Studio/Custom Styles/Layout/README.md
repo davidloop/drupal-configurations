@@ -1,4 +1,4 @@
-# Responsive Preview Device
+# Custom Styles - Layout - Margin & Padding
 
 ### Usage:
 
@@ -10,4 +10,6 @@
 - To check if a configuration was properly imported navigate to **Configuration** in the Drupal administrator toolbar.
 - Go to **Media > Image styles**, the imported configuration should be listed.
 
-![Screenshot](screenshot.jpg)
+![Screenshot](screenshot1.jpg)
+![Screenshot](screenshot2.jpg)
+![Screenshot](screenshot3.jpg)
