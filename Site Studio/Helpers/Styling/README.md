@@ -30,3 +30,7 @@ A helper catagory named **'Styling'** must exist within the **[Helper categories
 - Click **Import** and follow the instructions for syncing.
 - To check if a configuration was properly imported navigate to **Site Studio** in the Drupal administrator toolbar.
 - Go to **Helpers > Helpers**, the imported configurations should be listed under **Styling**.
+
+<p>&nbsp;</p>
+
+![Screenshot](screenshot.jpg)
