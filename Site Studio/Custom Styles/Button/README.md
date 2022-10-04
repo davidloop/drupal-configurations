@@ -3,7 +3,7 @@
 <p>&nbsp;</p>
 
 [Acquia Site Studio](https://www.acquia.com/products/drupal-cloud/site-studio) must be installed for these configurations to operate.<br>
-These custom styles are to used only with `<button>` elements, not `<a href>` elements.
+These custom styles are used with `<button>` elements, and not `<a href>` elements.
 
 <p>&nbsp;</p>
 
