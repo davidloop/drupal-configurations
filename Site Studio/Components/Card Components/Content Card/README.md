@@ -1,4 +1,4 @@
-# Components&nbsp;&nbsp;/&nbsp;&nbsp;Card Components
+# Content Card
 
 <p>&nbsp;</p>
 
