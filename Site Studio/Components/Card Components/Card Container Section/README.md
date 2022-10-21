@@ -5,7 +5,6 @@
 ### Requirements:
 
 - [Acquia Site Studio](https://www.acquia.com/products/drupal-cloud/site-studio) must be installed for these configurations to operate.
-- This component requires a component category with a machine name of **cpt_cat_cards**.
 - This component requires both **Margin** and **Padding** from the [Site Studio Layout Custom Styles](https://github.com/davidloop/drupal-configurations/tree/main/Site%20Studio/Custom%20Styles/Layout).
 - All individual **Card** components must have the **card-wrapper** class added to their parent container (`<article>`).
 
@@ -22,3 +21,7 @@
 - Click **Import** and follow the instructions for syncing.
 - To check if a configuration was properly imported navigate to **Site Studio** in the Drupal administrator toolbar.
 - Go to **Components > Components**, the imported configuration should be listed under **Card components**.
+
+![Screenshot](screenshot2.jpg)
+
+![Screenshot](screenshot3.jpg)
