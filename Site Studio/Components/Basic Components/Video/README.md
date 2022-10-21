@@ -6,8 +6,6 @@
 
 <p>&nbsp;</p>
 
-## Image
-
 ### Usage:
 
 - To import a configuration, navigate to **Configuration** in the Drupal administrator toolbar.
@@ -24,6 +22,10 @@
 - 16:9
 - 4:3
 - 1:1
+
+<p>&nbsp;</p>
+
+### Preview:
 
 ![Screenshot](screenshot-video1.jpg)
 
