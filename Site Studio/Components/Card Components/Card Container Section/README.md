@@ -22,6 +22,10 @@
 - To check if a configuration was properly imported navigate to **Site Studio** in the Drupal administrator toolbar.
 - Go to **Components > Components**, the imported configuration should be listed under **Card components**.
 
+<p>&nbsp;</p>
+
+### Preview:
+
 ![Screenshot](screenshot2.jpg)
 
 ![Screenshot](screenshot3.jpg)
