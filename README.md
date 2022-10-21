@@ -7,3 +7,4 @@
 - [Site Studio - Custom Styles - Button](https://github.com/davidloop/drupal-configurations/tree/main/Site%20Studio/Custom%20Styles/Button)
 - [Site Studio - Custom Styles - Layout](https://github.com/davidloop/drupal-configurations/tree/main/Site%20Studio/Custom%20Styles/Layout)
 - [Site Studio - Helpers - Styling](https://github.com/davidloop/drupal-configurations/tree/main/Site%20Studio/Helpers/Styling)
+- [Site Studio - Components - Basic Components](https://github.com/davidloop/drupal-configurations/tree/main/Site%20Studio/Components/Basic%20Components)
