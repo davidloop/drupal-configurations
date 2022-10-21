@@ -5,10 +5,7 @@
 ### Requirements:
 
 - [Acquia Site Studio](https://www.acquia.com/products/drupal-cloud/site-studio) must be installed for these configurations to operate.
-- This component requires both **Margin** and **Padding** from the [Site Studio Layout Custom Styles](https://github.com/davidloop/drupal-configurations/tree/main/Site%20Studio/Custom%20Styles/Layout).
-- All individual **Card** components must have the **card-wrapper** class added to their parent container (`<article>`).
-
-![Screenshot](screenshot1.jpg)
+- This **Card** component must have the **card-wrapper** class added to its parent container (`<article>`).
 
 <p>&nbsp;</p>
 
@@ -25,6 +22,8 @@
 <p>&nbsp;</p>
 
 ### Preview:
+
+![Screenshot](screenshot1.jpg)
 
 ![Screenshot](screenshot2.jpg)
 
