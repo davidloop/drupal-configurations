@@ -1,6 +1,8 @@
-# Components&nbsp;&nbsp;/&nbsp;&nbsp;Basic Components
+# Image
 
 <p>&nbsp;</p>
+
+### Requirement:
 
 [Acquia Site Studio](https://www.acquia.com/products/drupal-cloud/site-studio) must be installed for these configurations to operate.
 
