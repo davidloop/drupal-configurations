@@ -25,6 +25,6 @@
 - 4:3
 - 1:1
 
-![Screenshot](screenshot-image1.jpg)
+![Screenshot](screenshot-video1.jpg)
 
-![Screenshot](screenshot-image2.jpg)
+![Screenshot](screenshot-video2.jpg)
