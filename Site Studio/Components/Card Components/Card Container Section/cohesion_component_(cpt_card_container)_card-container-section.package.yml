@@ -408,7 +408,7 @@
     langcode: en
     status: true
     dependencies: {  }
-    label: Cards
+    label: 'Card components'
     id: cpt_cat_cards
     json_values: '{}'
     json_mapper: '{}'
