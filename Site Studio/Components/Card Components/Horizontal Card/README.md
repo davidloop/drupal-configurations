@@ -1,4 +1,4 @@
-# Content Card
+# Horizontal Card
 
 <p>&nbsp;</p>
 
@@ -28,3 +28,5 @@
 ![Screenshot](screenshot2.jpg)
 
 ![Screenshot](screenshot3.jpg)
+
+![Screenshot](screenshot4.jpg)
