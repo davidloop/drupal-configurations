@@ -1,4 +1,4 @@
-# Components&nbsp;&nbsp;/&nbsp;&nbsp;Card Components
+# Card Container Section
 
 <p>&nbsp;</p>
 
