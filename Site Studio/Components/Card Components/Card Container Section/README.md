@@ -2,15 +2,16 @@
 
 <p>&nbsp;</p>
 
+### Requirements:
+
 - [Acquia Site Studio](https://www.acquia.com/products/drupal-cloud/site-studio) must be installed for these configurations to operate.
+- This component requires a component category with a machine name of **cpt_cat_cards**.
 - This component requires both **Margin** and **Padding** from the [Site Studio Layout Custom Styles](https://github.com/davidloop/drupal-configurations/tree/main/Site%20Studio/Custom%20Styles/Layout).
 - All individual **Card** components must have the **card-wrapper** class added to their parent container (`<article>`).
 
 ![Screenshot](screenshot1.jpg)
 
 <p>&nbsp;</p>
-
-## Card Container Section
 
 ### Usage:
 
