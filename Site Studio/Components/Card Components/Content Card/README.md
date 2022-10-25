@@ -25,6 +25,10 @@
 
 ![Screenshot](screenshot1.jpg)
 
+#### Content
+
 ![Screenshot](screenshot2.jpg)
+
+#### Layout and style
 
 ![Screenshot](screenshot3.jpg)
